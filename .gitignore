@@ -1,0 +1,17 @@
+# Secrets & environment files (keep .env.example committed)
+.env
+.env.local
+.env.*.local
+
+# Dependencies & build output
+node_modules/
+dist/
+
+# Runtime contact submissions & temporary browser verification artifacts
+.data/
+.playwright-cli/
+
+# OS & editor files
+.DS_Store
+*.log
+.aistudio/
