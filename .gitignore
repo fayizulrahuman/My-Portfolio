@@ -1,0 +1,20 @@
+# Secrets & environment files (keep .env.example committed)
+.env
+.env.*
+!.env.example
+
+# Vercel local state & build output
+.vercel/
+dist/
+node_modules/
+*.tsbuildinfo
+
+# Runtime contact submissions & temporary browser verification artifacts
+.data/
+.playwright-cli/
+.aistudio/
+
+
+# OS & editor files
+.DS_Store
+*.log
